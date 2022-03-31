@@ -10,7 +10,7 @@
 ## 3D目标检测
 ---
 - [PointPillars](LiDAR/PointPillars/PointPillars.md)
-- [PointRCNN]
+- [PointRCNN](LiDAR/PointRCNN/PointRCNN.md)
 - [MaskRCNN]
 
 
@@ -19,3 +19,4 @@
 - [SimpleTrack](LiDAR/SimpleTrack/SimpleTrack.md)
 - [AB3DMOT](LiDAR/AB3DMOT/AB3DMOT.md)
 - [CenterTrack]()
+

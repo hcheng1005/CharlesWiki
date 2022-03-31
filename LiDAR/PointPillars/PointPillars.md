@@ -8,9 +8,10 @@
 ### [源码](https://github.com/nutonomy/second.pytorch)
 ### [How to Use](./README.md)
 ---
-
 ## 解析
 ### 参考资料
+- [PointPillars与PointRCNN编译运行以及结果可视化（小白探索之路，清晰易懂）](https://blog.csdn.net/lixushi/article/details/118728278?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8.pc_relevant_default&utm_relevant_index=16)
+
 - [PointPillars论文解析和OpenPCDet代码解析](https://blog.csdn.net/qq_41366026/article/details/123006401?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5.pc_relevant_default&utm_relevant_index=9)
     - *该参考资料详细注释了**OpenPCDet**代码*
 - [PointPillars解读:用于点云目标检测的快速编码器](https://zhuanlan.zhihu.com/p/404604357)
@@ -28,7 +29,7 @@
 该部分网络结构的作用是将点**云转换为伪图像**，转换过程的示意图如下：
 
   <p align="center">
-    <img src="jpg1.jpg" width="60%">
+    <img src="jpg1.jpg" width="50%">
   </p>
 
 - 1.**首先**，按照点云数据所在的X，Y轴（不考虑Z轴）将点云数据划分为一个 个的网格，凡是落入到一个网格的点云数据被视为其处在一个 pillar（柱体）里，或者理解为它们构成了一个 Pillar。
