@@ -9,6 +9,11 @@
 ### [代码解析](simpleTrack_code.md)
 ---
 
+#### **2022.04.09 ADD:** 
+> **跟踪算法输入dets格式为：[x, y, z, o, l, w, h ,s]**
+
+---
+
 ## **论文解析**
 
 ### **1. Pre-processing of Input Detections**

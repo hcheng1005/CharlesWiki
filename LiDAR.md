@@ -12,6 +12,7 @@
 - [PointPillars](LiDAR/PointPillars/PointPillars.md)
 - [PointRCNN](LiDAR/PointRCNN/PointRCNN.md)
 - [MaskRCNN]
+- [OPENPCDET](LiDAR/PointRCNN/OPENPCDET.md)
 
 
 ## 3D目标跟踪
